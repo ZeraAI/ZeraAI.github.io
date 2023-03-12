@@ -1,0 +1,29 @@
+html {
+  background-color: #4a4a4a;
+  color: #d5d5d5;
+  font-family: 'Noto Sans', serif;
+}
+
+:not(.skip-link):focus {
+  outline: 5px solid rgb(131, 234, 248);
+}
+
+.skip-link {
+  color: white;
+  padding: 0.5rem;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.skip-link a {
+  color: #4a4a4a;
+}
+
+body {
+  padding-left: 15px;;
+}
+
+body p .ff1 {
+  width: 500px;
+}
