@@ -1,7 +1,8 @@
-html {
+:root {
   background-color: #4a4a4a;
   color: #d5d5d5;
   font-family: 'Noto Sans', serif;
+  font-size: 16px;
 }
 
 :not(.skip-link):focus {
@@ -21,9 +22,27 @@ html {
 }
 
 body {
-  padding-left: 15px;;
+  padding-left: 1rem;
 }
 
 body p .ff1 {
-  width: 500px;
+  /* width: 500px; */
+  width: 31.25rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > * {
+  flex-basis: 47%;
+}
+
+.useful-links {
+  padding-left: 0.7rem;
+}
+
+.purple {
+  color: rgb(255, 250, 248);
 }
