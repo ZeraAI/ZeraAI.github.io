@@ -60,6 +60,10 @@ body p .ff1 {
   color: rgb(255, 250, 248);
 }
 
+.email-color {
+  color: rgb(255, 250, 248);
+}
+
 .website-links {
   display: flex;
   flex-wrap: wrap;
