@@ -1,7 +1,7 @@
 :root {
   background-color: #4a4a4a;
   color: #d5d5d5;
-  font-family: 'Noto Sans', serif;
+  font-family: "Noto Sans", serif;
   font-size: 16px;
 }
 
@@ -35,6 +35,14 @@ body p .ff1 {
   flex-wrap: wrap;
 }
 
+/* when screen shrinks, get rid of the flex */
+@media screen and (max-width: 1000px) {
+  .flex-container {
+    display: contents;
+    flex-wrap: nowrap;
+  }
+}
+
 .flex-container > * {
   flex-basis: 47%;
 }
@@ -43,6 +51,56 @@ body p .ff1 {
   padding-left: 0.7rem;
 }
 
+.useful-links a:hover {
+  opacity: 80%;
+}
+
+/* not actually purple, but i kept the name */
 .purple {
   color: rgb(255, 250, 248);
+}
+
+.website-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.website-links li {
+  padding-right: 1.25rem;
+}
+
+.website-links a {
+  color: rgb(255, 250, 248);
+  padding-right: 1.25rem;
+  text-decoration: none;
+}
+
+.website-links p {
+  margin: 0;
+  line-height: 0;
+  text-decoration: underline;
+}
+
+.website-links p:hover {
+  opacity: 80%;
+}
+
+.website-links li:hover img {
+  opacity: 0.5;
+  border: 0.0625rem solid black;
+}
+
+.website-links a img {
+  /* padding-top: 0.3125rem; */
+  width: 25rem;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.875rem;
+  text-align: center;
+  font-style: italic;
 }
