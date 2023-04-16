@@ -134,4 +134,70 @@ figcaption {
   font-size: 0.875rem;
   text-align: center;
   font-style: italic;
+}
+
+.waves-container {
+  position: fixed;
+  bottom: 3rem;
+  left: 0;
+  width: 100%;
+}
+
+.waves {
+  width: 100%;
+  height: 100px;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+}
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+}
+footer {
+  background-color: rgb(247, 247, 250);
+  padding: 1.0625rem 1.5rem;
+  color: rgb(77, 82, 91);
+  font-size: 0.875rem;
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
 }/*# sourceMappingURL=main.css.map */
