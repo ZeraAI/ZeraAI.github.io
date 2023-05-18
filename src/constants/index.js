@@ -240,7 +240,7 @@ const testimonials = [
     name: "Alan Ng",
     designation: "Co-Founder",
     company: "Gullover",
-    image: "/src/assets/alanng.jpg",
+    image: "https://zenparkbio.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa3dea378-bb29-413d-b097-f2f73123bdc8%2Falanng.jpg?id=939eba6f-c7db-48a5-afbe-c98408ac4947&table=block&spaceId=92fd519c-d9e7-4091-8fa5-4b9c14d041c5&width=2000&userId=&cache=v2",
   },
   {
     testimonial:
@@ -256,7 +256,7 @@ const testimonials = [
     name: "Dr. Rudolf",
     designation: "Doctor Feline",
     company: "Meowversity of Technology",
-    image: "/src/assets/Rudolf.jpg",
+    image: "https://zenparkbio.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff2cb2693-7a8a-47c8-b916-49ef16b6b93f%2FRudolf.jpg?id=73f6c330-d223-4905-a461-1f0a988a13ad&table=block&spaceId=92fd519c-d9e7-4091-8fa5-4b9c14d041c5&width=2000&userId=&cache=v2",
   },
 ];
 
